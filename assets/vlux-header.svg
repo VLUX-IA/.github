@@ -1,26 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1600" height="360" viewBox="0 0 1600 360" role="img" aria-labelledby="title desc">
   <title id="title">VLUX — AI Transformation Partner</title>
-  <desc id="desc">Encabezado corporativo sobrio para el perfil de GitHub de VLUX. Software, IA y automatización.</desc>
-
-  <rect width="1600" height="360" rx="18" fill="#070A0E"/>
+  <desc id="desc">Encabezado corporativo de VLUX con la versión secundaria horizontal.</desc>
+  <rect width="1600" height="360" rx="18" fill="#05070A"/>
+  <image href="vlux-header-source.jpg" x="0" y="0" width="1600" height="360" preserveAspectRatio="xMidYMid slice"/>
   <rect x="1" y="1" width="1598" height="358" rx="17" fill="none" stroke="#26323B" stroke-width="2"/>
-
-  <g opacity="0.72">
-    <line x1="84" y1="74" x2="1516" y2="74" stroke="#222C34" stroke-width="1"/>
-    <line x1="84" y1="286" x2="1516" y2="286" stroke="#222C34" stroke-width="1"/>
-    <line x1="84" y1="74" x2="260" y2="74" stroke="#00E5FF" stroke-width="2"/>
-    <line x1="1340" y1="286" x2="1516" y2="286" stroke="#7D8C96" stroke-width="2"/>
-  </g>
-
-  <rect x="104" y="112" width="180" height="112" rx="14" fill="#0B1117" stroke="#31414C" stroke-width="1"/>
-  <!-- PENDIENTE: reemplazar con assets/vlux-logo-oficial.png cuando esté disponible -->
-  <text x="194" y="181" text-anchor="middle" fill="#00E5FF" font-family="SFMono-Regular, Consolas, Liberation Mono, monospace" font-size="36" font-weight="700" letter-spacing="3">VLUX</text>
-
-  <line x1="340" y1="106" x2="340" y2="242" stroke="#2C3841" stroke-width="1"/>
-
-  <g font-family="Inter, Segoe UI, Arial, sans-serif">
-    <text x="398" y="150" fill="#F4F7F9" font-size="64" font-weight="650" letter-spacing="12">VLUX</text>
-    <text x="402" y="198" fill="#AEB9C2" font-size="22" font-weight="500" letter-spacing="5">AI TRANSFORMATION PARTNER</text>
-    <text x="402" y="240" fill="#00E5FF" font-size="24" font-weight="400" letter-spacing="1.2">Software · IA · Automatización</text>
-  </g>
 </svg>
