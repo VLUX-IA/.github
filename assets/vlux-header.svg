@@ -1,7 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="360" viewBox="0 0 1600 360" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1117" height="749" viewBox="0 0 1117 749" role="img" aria-labelledby="title desc">
   <title id="title">VLUX — AI Transformation Partner</title>
-  <desc id="desc">Encabezado corporativo de VLUX con la versión secundaria horizontal.</desc>
-  <rect width="1600" height="360" rx="18" fill="#05070A"/>
-  <image href="vlux-header-source.jpg" x="0" y="0" width="1600" height="360" preserveAspectRatio="xMidYMid slice"/>
-  <rect x="1" y="1" width="1598" height="358" rx="17" fill="none" stroke="#26323B" stroke-width="2"/>
+  <desc id="desc">Version secundaria horizontal oficial de VLUX.</desc>
+  <rect width="1117" height="749" fill="#05070A"/>
+  <image xlink:href="vlux-header-source.jpg" href="vlux-header-source.jpg" x="0" y="0" width="1117" height="749" preserveAspectRatio="xMidYMid meet"/>
 </svg>
