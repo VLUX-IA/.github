@@ -1,60 +1,26 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="500" viewBox="0 0 1600 500" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="360" viewBox="0 0 1600 360" role="img" aria-labelledby="title desc">
   <title id="title">VLUX — AI Transformation Partner</title>
-  <desc id="desc">Banner corporativo de VLUX para GitHub</desc>
-  <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#03070d"/>
-      <stop offset="0.52" stop-color="#07131f"/>
-      <stop offset="1" stop-color="#020509"/>
-    </linearGradient>
-    <linearGradient id="stroke" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#e7fbff"/>
-      <stop offset="0.45" stop-color="#63e6ff"/>
-      <stop offset="1" stop-color="#0797ff"/>
-    </linearGradient>
-    <linearGradient id="fillV" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#d8f9ff" stop-opacity="0.22"/>
-      <stop offset="0.5" stop-color="#0ca9ff" stop-opacity="0.14"/>
-      <stop offset="1" stop-color="#00121f" stop-opacity="0.15"/>
-    </linearGradient>
-    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
-      <stop offset="0" stop-color="#24c8ff" stop-opacity="0.32"/>
-      <stop offset="1" stop-color="#24c8ff" stop-opacity="0"/>
-    </radialGradient>
-    <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%">
-      <feGaussianBlur stdDeviation="10" result="blur"/>
-      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
-    </filter>
-    <pattern id="grid" width="42" height="42" patternUnits="userSpaceOnUse">
-      <path d="M 42 0 L 0 0 0 42" fill="none" stroke="#5edfff" stroke-opacity="0.045" stroke-width="1"/>
-    </pattern>
-  </defs>
+  <desc id="desc">Encabezado corporativo sobrio para el perfil de GitHub de VLUX. Software, IA y automatización.</desc>
 
-  <rect width="1600" height="500" rx="26" fill="url(#bg)"/>
-  <rect width="1600" height="500" rx="26" fill="url(#grid)"/>
-  <ellipse cx="800" cy="250" rx="520" ry="230" fill="url(#glow)"/>
+  <rect width="1600" height="360" rx="18" fill="#070A0E"/>
+  <rect x="1" y="1" width="1598" height="358" rx="17" fill="none" stroke="#26323B" stroke-width="2"/>
 
-  <g opacity="0.55">
-    <path d="M0 92H370L455 178" fill="none" stroke="#3bd6ff" stroke-opacity="0.28" stroke-width="2"/>
-    <path d="M1600 92H1230L1145 178" fill="none" stroke="#3bd6ff" stroke-opacity="0.28" stroke-width="2"/>
-    <path d="M0 410H330L410 330" fill="none" stroke="#3bd6ff" stroke-opacity="0.18" stroke-width="2"/>
-    <path d="M1600 410H1270L1190 330" fill="none" stroke="#3bd6ff" stroke-opacity="0.18" stroke-width="2"/>
-    <circle cx="455" cy="178" r="4" fill="#70e8ff"/>
-    <circle cx="1145" cy="178" r="4" fill="#70e8ff"/>
+  <g opacity="0.72">
+    <line x1="84" y1="74" x2="1516" y2="74" stroke="#222C34" stroke-width="1"/>
+    <line x1="84" y1="286" x2="1516" y2="286" stroke="#222C34" stroke-width="1"/>
+    <line x1="84" y1="74" x2="260" y2="74" stroke="#00E5FF" stroke-width="2"/>
+    <line x1="1340" y1="286" x2="1516" y2="286" stroke="#7D8C96" stroke-width="2"/>
   </g>
 
-  <g transform="translate(205 103)" filter="url(#softGlow)">
-    <path d="M0 0 L120 165 L240 0 L190 0 L120 99 L50 0 Z" fill="url(#fillV)" stroke="url(#stroke)" stroke-width="7" stroke-linejoin="round"/>
-    <path d="M65 98 L120 174 L175 98 L146 98 L120 134 L94 98 Z" fill="none" stroke="#7cecff" stroke-width="4" stroke-linejoin="round" opacity="0.9"/>
-  </g>
+  <rect x="104" y="112" width="180" height="112" rx="14" fill="#0B1117" stroke="#31414C" stroke-width="1"/>
+  <!-- PENDIENTE: reemplazar con assets/vlux-logo-oficial.png cuando esté disponible -->
+  <text x="194" y="181" text-anchor="middle" fill="#00E5FF" font-family="SFMono-Regular, Consolas, Liberation Mono, monospace" font-size="36" font-weight="700" letter-spacing="3">VLUX</text>
 
-  <g font-family="Inter,Segoe UI,Arial,sans-serif">
-    <text x="540" y="210" fill="#f4fbff" font-size="104" font-weight="650" letter-spacing="26">VLUX</text>
-    <text x="545" y="270" fill="#6fe4ff" font-size="26" font-weight="600" letter-spacing="8">AI TRANSFORMATION PARTNER</text>
-    <line x1="545" y1="300" x2="1290" y2="300" stroke="#55dcff" stroke-opacity="0.35"/>
-    <text x="545" y="345" fill="#d6e7ef" font-size="27" font-weight="400" letter-spacing="1.2">Software · Inteligencia Artificial · Automatización</text>
-    <text x="545" y="392" fill="#8fa7b5" font-size="22" font-weight="400">Convertimos procesos manuales en sistemas inteligentes.</text>
-  </g>
+  <line x1="340" y1="106" x2="340" y2="242" stroke="#2C3841" stroke-width="1"/>
 
-  <rect x="1" y="1" width="1598" height="498" rx="25" fill="none" stroke="#50dfff" stroke-opacity="0.18" stroke-width="2"/>
+  <g font-family="Inter, Segoe UI, Arial, sans-serif">
+    <text x="398" y="150" fill="#F4F7F9" font-size="64" font-weight="650" letter-spacing="12">VLUX</text>
+    <text x="402" y="198" fill="#AEB9C2" font-size="22" font-weight="500" letter-spacing="5">AI TRANSFORMATION PARTNER</text>
+    <text x="402" y="240" fill="#00E5FF" font-size="24" font-weight="400" letter-spacing="1.2">Software · IA · Automatización</text>
+  </g>
 </svg>
